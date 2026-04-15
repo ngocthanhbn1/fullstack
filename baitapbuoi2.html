@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style a Blog Post with CSS</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <h1>Style a Blog Post with CSS: beginner-friendly tutorial</h1>
+    <p>Written by Massa Medi | January 5, 2025</p>
+
+    <p>Styling a blog post is a fundamental skill for web developers. In this tutorial, we'll guide you through the process of creating a simple blog post using HTML and CSS.</p>
+    <p>You'll learn how to apply font families, text colors, and adjust line height and spacing to enhance readability.</p>
+    <p>By the end of this tutorial, you'll have a well-styled blog post that you can use as a template for your own blog or website.</p>
+
+    <h2>Setting Up Your Workspace</h2>
+    
+    <h3>Installing a Text Editor</h3>
+    <p>For this tutorial, we'll be using Visual Studio Code (VS Code), a free and popular code editor. Here's how you can install it:</p>
+    <ul>
+        <li>Go to the Visual Studio Code website and click the "Download" button.</li>
+        <li>Choose the version for your operating system (Windows, Mac, or Linux) and follow the installation instructions.</li>
+    </ul>
+
+    <h3>Creating Your Project Folder</h3>
+    <p>Next, let's create a dedicated folder to keep all your blog post files organized:</p>
+    <ul>
+        <li>Open your file explorer (Windows) or Finder (Mac).</li>
+        <li>Navigate to your Documents folder (or any other location you prefer).</li>
+        <li>Right-click in an empty space and select "New > Folder".</li>
+        <li>Name the folder "my-blog-post" and press Enter.</li>
+    </ul>
+
+    <h3>Creating Your Project Files</h3>
+    <p>Within your "my-blog-post" folder, we need to create two files: index.html and styles.css.</p>
+
+    <h2>Building the HTML Structure</h2>
+    
+    <h3>Step 2: Add the Basic HTML Structure</h3>
+    <p>Copy and paste the following code into your index.html file:</p>
+    
+<pre><code class="language-html">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;My Blog Post&lt;/title&gt;
+&lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- We'll add content here in the next step --&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+    <h2>Adding Content to Your Blog Post</h2>
+    
+    <h3>Step 1: Add the Header Section</h3>
+    <p>Inside the &lt;body&gt; tags, add the following code:</p>
+<pre><code class="language-html">
+&lt;header&gt;
+&lt;h1&gt;My First Blog Post&lt;/h1&gt;
+&lt;p class="subtitle"&gt;Published on October 1, 2023&lt;/p&gt;
+&lt;/header&gt;
+</code></pre>
+
+    <h3>Step 2: Add the Blog Post Content</h3>
+    <p>Below the header section, add the following code:</p>
+<pre><code class="language-html">
+&lt;article&gt;
+&lt;section&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;
+Welcome to my first blog post. In this post, I'll be discussing the importance of web development and how to get started.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;/article&gt;
+</code></pre>
+
+    <h3>Step 3: Add a Footer Section</h3>
+    <p>Finally, add a footer section for additional information:</p>
+<pre><code class="language-html">
+&lt;footer&gt;
+&lt;p&gt;Author: Your Name&lt;/p&gt;
+&lt;/footer&gt;
+</code></pre>
+
+    <h2>Adding CSS Styling</h2>
+    
+    <h3>Step 2: Add Basic Page Styles</h3>
+    <p>Copy and paste the following code into your styles.css file:</p>
+    
+<pre><code class="language-css">
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+</code></pre>
+
+    <h3>Step 3: Style the Header Section</h3>
+<pre><code class="language-css">
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+</code></pre>
+
+    <h2>Conclusion</h2>
+    <p>Congratulations! You've now created a simple blog post using HTML and CSS. This tutorial has provided you with a solid foundation to build upon. Remember, this is just the beginning - you can continue to customize and expand your blog post as you learn more.</p>
+    <p>Feel free to experiment with different styles, add more sections, and make your blog post truly unique. Happy coding!</p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-css.min.js"></script>
+</body>
+</html>
