@@ -1,0 +1,83 @@
+body {
+  font-family: Arial;
+  background: #f3f4f6;
+}
+
+.panel {
+  width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+}
+
+.group {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-right: 10px;
+  padding: 4px 8px;
+  background: #eee;
+  cursor: pointer;
+}
+
+/* mặc định mờ */
+.result p {
+  opacity: 0.3;
+  padding: 5px;
+}
+
+/* THEME */
+#light:checked ~ .result .theme-light {
+  opacity: 1;
+  background: #fff8cc;
+}
+
+#dark:checked ~ .result .theme-dark {
+  opacity: 1;
+  background: #111827;
+  color: white;
+}
+
+/* COLOR */
+#red:checked ~ .result .color-red {
+  opacity: 1;
+  background: #fee2e2;
+}
+
+#blue:checked ~ .result .color-blue {
+  opacity: 1;
+  background: #dbeafe;
+}
+
+#green:checked ~ .result .color-green {
+  opacity: 1;
+  background: #dcfce7;
+}
+
+/* LANGUAGE */
+#vi:checked ~ .result .lang-vi {
+  opacity: 1;
+  font-weight: bold;
+}
+
+#en:checked ~ .result .lang-en {
+  opacity: 1;
+  font-weight: bold;
+}
+
+/* OPTIONS */
+#adv:checked ~ .result .opt-adv {
+  opacity: 1;
+  background: #fef3c7;
+}
+
+#eco:checked ~ .result .opt-eco {
+  opacity: 1;
+  background: #bbf7d0;
+}
+
+#warn:checked ~ .result .opt-warn {
+  opacity: 1;
+  background: #fee2e2;
+}
